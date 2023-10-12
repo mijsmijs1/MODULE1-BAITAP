@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    padding: 300px 300px 20px 0px;
+    /*margin: 300;*/
+    background-image: url("./beach3.jpg");
+    background-size: cover;
+}
+.line1{
+    padding: 10px 0px 0px 10px;
+    background-color: yellow;
+    opacity: 40%;
+    width: 400px;
+    /*background-image: url("beach3.jpg");*/
+}
+.line2{
+    padding: 0px 0px 10px 10px;
+    background-color: yellow;
+    opacity: 40%;
+    width: 400px;
+    /*background-image: url("beach3.jpg");*/
+}
+.div1{
+    float: left;
+    margin: 50px 40px 0px 60px;
+}
+.img1{
+    padding: 5px 0px 0px 0px;
+    background-color: yellow;
+}
+.div2{
+    float: left;
+    margin: 50px 40px 0px 20px;
+}
+.img2{
+    padding: 5px 0px 0px 0px;
+    background-color: yellow;
+}
+.div3{
+    float: left;
+    margin: 50px 40px 0px 60px;
+}
+.img3{
+    padding: 5px 0px 0px 0px;
+    background-color: yellow;
+}
+.div4{
+    float: left;
+    margin: 50px 40px 0px 20px;
+}
+.img4{
+    padding: 5px 0px 0px 0px;
+    background-color: yellow;
+}
+h1{
+    padding:  20px 0px 20px 0px;
+}

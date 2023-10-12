@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session3-Homework</title>
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+    />
+    <link href="./layout.css" rel="stylesheet"/>
+<!--    respnsive 425-->
+    <link href="session3-responsive.css" rel="stylesheet"/>
+    <link href="ss3-resonsive%20bai%20tap.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+    <header>
+        <div class="icon">
+            Shopee
+        </div>
+        <input type="text" placeholder="Tìm kiếm theo tên sản phẩm" class="header_input"/>
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <ul class="header_nav">
+            <li><i class="fa-solid fa-cart-shopping"></i>Giỏ hàng</li>
+            <li>Đăng nhập</li>
+            <li>Đăng ký</li>
+        </ul>
+        <i class="fa-solid fa-bars"></i>
+    </header>
+    <!--    <section class="carousel">-->
+    <!--        <ol class="carousel__viewport">-->
+    <!--            <li id="carousel__slide1" tabindex="0" class="carousel__slide">-->
+    <!--                <div class="carousel__snapper">-->
+    <!--                    <a href="#carousel__slide4" class="carousel__prev">GO to last slide</a>-->
+    <!--                    <a href="#carousel__slide2" class="carousel__next">Go to next slide</a>-->
+    <!--                </div>-->
+    <!--            </li>-->
+    <!--            <li id="carousel_slide2" tabindex="0" class="carousel__slide">-->
+    <!--            <div class="carousel__snapper"></div>-->
+    <!--            <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>-->
+    <!--            <a href="#carousel__slide3" class="carousel__next">Go to next slide</a>-->
+    <!--            </li>-->
+    <!--            <li id="carousel_slide3" tabindex="0" class="carousel__slide">-->
+    <!--                <div class="carousel__snapper"></div>-->
+    <!--                <a href="#carousel__slide2" class="carousel__prev">Go to previous slide</a>-->
+    <!--                <a href="#carousel__slide4" class="carousel__next">Go to next slide</a>-->
+    <!--            </li>-->
+    <!--            <li id="carousel_slide4" tabindex="0" class="carousel__slide">-->
+    <!--                <div class="carousel__snapper"></div>-->
+    <!--                <a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a>-->
+    <!--                <a href="#carousel__slide1" class="carousel__next">Go to first slide</a>-->
+    <!--            </li>-->
+    <!--            <aside class="carousel__navigation">-->
+    <!--                <ol class="carousel__navigation-list">-->
+    <!--                    <li class="carousel__navigation-item">-->
+    <!--                        <a href="#carousel__slide1" class="carousel__navigation-button">Go to slide 1</a>-->
+    <!--                    </li>-->
+    <!--                    <li class="carousel__navigation-item">-->
+    <!--                        <a href="#carousel__slide2" class="carousel__navigation-button">Go to slide 2</a>-->
+    <!--                    </li>-->
+    <!--                    <li class="carousel__navigation-item">-->
+    <!--                        <a href="#carousel__slide3" class="carousel__navigation-button">Go to slide 3</a>-->
+    <!--                    </li>-->
+    <!--                    <li class="carousel__navigation-item">-->
+    <!--                        <a href="#carousel__slide4" class="carousel__navigation-button">Go to slide 4</a>-->
+    <!--                    </li>-->
+    <!--                </ol>-->
+    <!--            </aside>-->
+
+    <!--        </ol>-->
+    <!--    </section>-->
+<!--    CAROUSEL SESSION-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://image-us.eva.vn/upload/2-2021/images/2021-06-04/untitled-1-1622808023-943-width640height480.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://image-us.24h.com.vn/upload/2-2021/images/2021-04-14/dfg-1618392620-26-width640height480.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.kienthuc.net.vn/zoom/800/Uploaded/CTV/2023-06-04/1685696924-307-thumbnail-width640height480_4_559610.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+<!--    END CAROUSEL SESSION-->
+<!--    <div class="controller">-->
+<!--        <ul>-->
+<!--            <li></li>-->
+<!--            <li></li>-->
+<!--            <li></li>-->
+<!--            <li></li>-->
+<!--            <li></li>-->
+<!--            <li></li>-->
+<!--        </ul>-->
+<!--    </div>-->
+    <main>
+        <div class="superbackground">
+            <div class="content">
+                <div class="content_nav">
+                    <div class="content__nav--top">
+                        <i class="fa-solid fa-bars"></i>
+                        <span>Danh Mục</span>
+                    </div>
+                    <ul class="nav_list">
+                        <li class="nav_item active">
+                            <i class="fa-solid fa-caret-right"></i>
+                            Tất cả danh mục
+                        </li>
+                        <li class="nav_item">Thiết bị điện tử</li>
+                        <li class="nav_item">Sách</li>
+                        <li class="nav_item">Đồ Tiêu Dùng</li>
+                        <li class="nav_item">Thời Trang</li>
+                    </ul>
+                </div>
+                <div class="content_main">
+                    <div class="item">
+                        <img src="https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/_/t_m_12.png"
+                             alt="iphone14"/>
+                        <p class="name">Iphone 14 pro max</p>
+                        <div class="price">
+                            <span>35.000.000</span>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                        <div class="sale">
+                            <i class="fa-regular fa-heart"></i>
+                            48 đã bán
+                        </div>
+                        <div class="index">
+                            <p>Apple</p>
+                            <p>Hà Nội</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./img/iphone14.png" alt="iphone14"/>
+                        <p class="name">Iphone 14 pro max</p>
+                        <div class="price">
+                            <span>35.000.000</span>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                        <div class="sale">
+                            <i class="fa-regular fa-heart"></i>
+                            48 đã bán
+                        </div>
+                        <div class="index">
+                            <p>Apple</p>
+                            <p>Hà Nội</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./img/iphone14.png" alt="iphone14"/>
+                        <p class="name">Iphone 14 pro max</p>
+                        <div class="price">
+                            <span>35.000.000</span>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-heart"></i>
+                            48 đã bán
+                        </div>
+                        <div>
+                            <p>Apple</p>
+                            <p>Hà Nội</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./img/iphone14.png" alt="iphone14"/>
+                        <p class="name">Iphone 14 pro max</p>
+                        <div class="price">
+                            <span>35.000.000</span>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-heart"></i>
+                            48 đã bán
+                        </div>
+                        <div>
+                            <p>Apple</p>
+                            <p>Hà Nội</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./img/iphone14.png" alt="iphone14"/>
+                        <p class="name">Iphone 14 pro max</p>
+                        <div class="price">
+                            <span>35.000.000</span>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-heart"></i>
+                            48 đã bán
+                        </div>
+                        <div>
+                            <p>Apple</p>
+                            <p>Hà Nội</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p class="title">Chăm sóc khách hàng</p>
+            <ul>
+                <li>Trung tâm trợ lý</li>
+                <li>Hướng dẫn mua hàng</li>
+            </ul>
+        </div>
+        <div>
+            <p class="title">Giới thiệu</p>
+            <ul>
+                <li>Điều khoản</li>
+                <li>Chính sách bảo mật</li>
+                <li>Tuyển dụng</li>
+            </ul>
+        </div>
+        <div>
+            <p class="title">Danh mục sản phẩm</p>
+            <ul>
+                <li>Thời trang</li>
+                <li>Đồ tiêu dùng</li>
+                <li>Thiết bị điện tử</li>
+                <li>Sách</li>
+            </ul>
+        </div>
+        <div>
+            <p class="title">Theo dõi chúng tôi</p>
+            <ul>
+                <li><i class="fa-brands fa-facebook"></i>Facebook</li>
+                <li><i class="fa-brands fa-instagram"></i>Instagram</li>
+                <li><i class="fa-brands fa-twitter"></i>Twitter</li>
+            </ul>
+        </div>
+        <div>
+            <p class="title">Đội ngũ phát triển</p>
+            <ul>
+                <li>HCM_JS230915</li>
+            </ul>
+        </div>
+    </footer>
+    <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+</div>
+<div class="animations">
+    <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+</div>
+<div class="transition">
+    <div></div>
+</div>
+<div class="transform">
+    <img src="iphone11promax.jpg"/>
+</div>
+<!--<div class="menu">-->
+<!--    <ul>-->
+<!--        <li><a href="#">Manchester United F.C.</a>-->
+<!--            <ul>-->
+<!--                <li><a href="#">David de Gea</a></li>-->
+<!--                <li><a href="#">Harry Maguire (lead)</a></li>-->
+<!--                <li><a href="#">Cristiano Ronaldo</a></li>-->
+<!--                <li><a href="#">Marcus Rashford</a></li>-->
+<!--                <li><a href="#">Marcus Rashford</a></li>-->
+<!--            </ul>-->
+<!--        </li>-->
+<!--        <li><a href="#">Manchester City F.C.</a>-->
+<!--            <ul>-->
+<!--                <li><a href="#">Stefan Ortega</a></li>-->
+<!--                <li><a href="#">İlkay Gündoğan (lead)</a></li>-->
+<!--                <li><a href="#">Erling Haaland</a></li>-->
+<!--                <li><a href="#">Julián Álvarez</a></li>-->
+<!--                <li><a href="#">Riyad Mahrez</a></li>-->
+<!--            </ul>-->
+<!--        </li>-->
+<!--        <li><a href="#">Arsenal F.C.</a></li>-->
+<!--        <li><a href="#">Chelsea F.C.</a></li>-->
+<!--    </ul>-->
+<!--</div>-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>

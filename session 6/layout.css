@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+:root {
+    --primary-color: #F53E2D;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    padding: 0 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 25px;
+    color: #fff;
+    /*background-color: #F53E2D;*/
+    background: linear-gradient(180deg, #F53E2D, #FE6333);
+    gap: 15px;
+}
+
+.icon {
+    text-transform: uppercase;
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+header input {
+    flex: 1;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+
+header > i {
+    padding: 10px;
+    background-color: #fff;
+    cursor: pointer;
+    color: var(--primary-color);
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.header_nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: 40px;
+}
+
+.controller {
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.controller ul {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: end;
+}
+
+.controller ul li {
+    width: 25px;
+    height: 25px;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+
+.main {
+    background-color: #E2E3E5;
+}
+
+.superbackground {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #E2E3E5;
+}
+
+.content {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    padding: 25px 0 50px;
+    font-size: 24px;
+    background-color: #E2E3E5;
+    gap: 10px;
+    justify-content: center;
+}
+
+.content-nav {
+    width: 350px;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+
+.content__nav--top {
+    font-size: 28px;
+    font-weight: 600;
+    padding: 25px 15px;
+    border-bottom: 4px solid #eeeeee;
+    background-color: #fff;
+}
+
+.nav_list {
+    padding: 15px 0;
+    background-color: #fff;
+}
+
+.nav_item {
+    padding: 15px;
+}
+
+.nav_item.active {
+    color: #F53E2D;
+}
+
+.content_main {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    /**/
+    gap: 10px;
+}
+
+.item {
+    width: 280px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px 15px 10px;
+}
+
+.item img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.name {
+    font-size: 25px;
+    font-weight: 650;
+    margin: 10px 0;
+}
+
+.price {
+    text-align: center;
+    color: var(--primary-color);
+    margin: 7px 0;
+}
+
+.price > span {
+    padding: 0 70px 0 0;
+    margin: 7px 0;
+}
+
+.sale > i {
+    color: blueviolet;
+    padding-right: 100px;
+    margin: 7px 0;
+}
+
+.index {
+    display: flex;
+    gap: 100px;
+    margin: 7px 0;
+}
+
+footer {
+    border-top: 5px solid var(--primary-color);
+    border-bottom: 5px solid black;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0px 0 30px 0;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+footer ul li {
+    padding: 5px 0;
+}
+
+footer ul li i {
+    padding: 0px 5px;
+}
+.animations{
+    position: relative;
+}
+
+.animations p {
+    position: absolute;
+    animation-name: marquee;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes marquee {
+    from {
+        left: 0%;
+    }
+    to {
+        left: 100%
+    }
+}
+.transition{
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    transition: all 1s;
+}
+.transition:hover{
+    height: 200px;
+    width: 200px;
+    background-color: #ff2a2c;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+}
+.transform{
+    transform: rotate(0deg);
+    transition: transform 2s ease;
+    width: 500px;
+}
+.transform:hover{
+    transform: rotate(360deg);
+}
+.menu ul,.menu li{
+    padding: 0;
+    margin: 0;
+}
+.menu ul{
+    width: 200px;
+    height: 150px;
+}
+.menu li{
+    list-style: none;
+    position: relative;
+    width: 200px;
+    height: 30px;
+    padding: 0 20px;
+    background-color: black;
+    line-height: 30px;
+    cursor: pointer;
+}
+.menu ul ul{
+    position: absolute;
+    visibility: hidden;
+}
+.menu ul li:hover ul{
+    visibility: visible;
+}

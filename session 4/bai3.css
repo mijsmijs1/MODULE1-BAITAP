@@ -1,0 +1,13 @@
+div{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:#A06D21  ;
+    background-image: url("./images/Bai03.jpg");
+}
+h1{
+    text-align: center;
+    color: #FFCC00;
+}
+p{
+    color: white;
+}

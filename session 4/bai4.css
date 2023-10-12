@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+div{
+    margin: 0 auto;
+    padding: 0 auto;
+    background-repeat: repeat;
+    background-image: url("./images/Bai04.jpg");
+    background-attachment: scroll;
+}
+h2{
+    text-align: center;
+    color: #008888 ;
+}
+p{
+    background-color:#339999 ;
+    color: white;
+    font-style: oblique;
+}

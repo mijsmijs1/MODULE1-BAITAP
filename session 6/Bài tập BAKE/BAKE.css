@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #4e2a84;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70px;
+}
+
+header h1 {
+    color: white;
+    font-weight: 400;
+    margin-right: 200px;
+    font-weight: 550;
+}
+
+header ul {
+    margin-left: 200px;
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    font-weight: 600;
+}
+
+header ul li {
+    font-size: 10px;
+    margin: 0 8px;
+    color: white;
+}
+
+header ul li:hover {
+    color: #ff0e83;
+}
+
+.container {
+    background-image: url("./images/b3.jpg");
+    /*background-attachment: fixed;*/
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+
+.container_content .container_content_center {
+    color: white;
+    font-size: 50px;
+    margin: 20px;
+    font-weight: 600;
+}
+
+.container .container_content_main {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+input {
+    color: white;
+    background-color: #ff0e83;
+    border: 1px white solid;
+    border-radius: 4px;
+    height: 45px;
+    font-weight: 500;
+    width: 180px;
+    margin-left: 120px;
+}
+
+input:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid #ff0e83;
+    border-radius: 4px;
+}
+.main{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    grid-template-rows: auto auto auto;
+    height: 1400px;
+    width: 100%;
+    gap:0 0;
+}
+.main .main_content1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: #4e2a84;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /*width: auto;*/
+    /*height: 500px;*/
+}
+.main .main_content2{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-image: url("./images/ab1.jpg");
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+    /*width: 650px;*/
+    /*height: 500px;*/
+    /*background-attachment: ;*/
+}
+.main .main_content3{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background-color: #ff0e83;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /*width: auto;*/
+    /*height: 500px;*/
+}
+.main .main_content4{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: hotpink;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /*width: auto;*/
+    /*height: 500px;*/
+}
+.main .main_content5{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-image: url("./images/ab2.jpg");
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+    /*width: auto;*/
+    /*height: 500px;*/
+    /*background-attachment: ;*/
+}
+.main .main_content6{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background-color: mediumpurple;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /*width: auto;*/
+    /*height: 500px;*/
+}
+.main .main_content7{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-image: url("./images/ab3.jpg");
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+    /*width: auto;*/
+    /*height: 500px;*/
+}
+.main .main_content8{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: #4e2a84;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /*background-attachment: ;*/
+}
+.main .main_content9{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-image: url("./images/ab4.jpg");
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+    /*width: auto;*/
+    /*height: 500px;*/
+}
+.runnumber{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    padding-bottom: 20px;
+    gap:60px
+}
+.container_service{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 500px;
+background-image: url("https://img.freepik.com/free-photo/top-view-delicious-cake-arrangement_23-2148933608.jpg?w=2000");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: cover;
+    justify-content: center;
+    flex-direction: column;
+}
+.container_service p{
+    justify-content: center;
+    padding:20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    /*margin-bottom: 30px;*/
+    padding-bottom: 50px;
+}
+.container_service_icon{
+    display: flex;
+    flex-wrap: wrap;
+justify-content: center;
+    gap:5px;
+
+}
+.container_service_icon_content{
+    text-align: center;
+    padding: 5px;
+}
+.container_service_icon_content p{
+    font-size: 15px;
+    padding:8px;
+    color: black;
+}
+.container_service_icon_content i{
+    padding:20px;
+    border: 1px #4e2a84 solid;
+    border-radius: 50%;
+    font-size: 50px;
+    background-color: white;
+    color: #4e2a84;
+}
+.container_service_icon_content i:hover {
+    padding: 20px;
+    border: 1px #4e2a84 solid;
+    border-radius: 50%;
+    font-size: 50px;
+    background-color: white;
+    color: #ff0e83;
+}
+.container_service_icon_content input{
+    text-align: center;
+    color: white;
+    background-color: #ff0e83;
+    border: 1px white solid;
+    border-radius: 4px;
+    height: 45px;
+    font-weight: 500;
+    width: 180px;
+    margin:30px 0 0 0;
+}
+.container_service_icon_content input:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid #ff0e83;
+    border-radius: 4px;
+}

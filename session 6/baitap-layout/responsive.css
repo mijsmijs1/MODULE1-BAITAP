@@ -1,0 +1,251 @@
+@media screen and (max-width:412px){
+    .container{
+        width: 90%;
+    }
+    .container__header--logo{
+        /*margin-left: ;*/
+    }
+    .container__header--logo img{
+        width: 42px;
+        height: 42px;
+    }
+    .container__header--logo span:nth-child(2){
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding:8px 0 0 5px;
+    }
+    .container__header--logo span:nth-child(3){
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding:8px 0 0 0;
+    }
+    .menu{
+        position: fixed;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        /*Bằng với top right bottom left*/
+        /*inset: 0 0 0 auto;*/
+        background-color: white;
+        width: 300px;
+        z-index: 99;
+        border-left: 1px solid #ddd;
+        flex-direction: column;
+        gap: 10px 0;
+        padding-top: 60px;
+        align-items: stretch;
+        transform: translateX(100%);
+        will-change: transform;
+        transition: all 0.2s linear;
+    }
+    .menu.is-show{
+        transform: translateX(0);
+    }
+    .container__header--link{
+        display: block;
+        width: 100%;
+        padding: 20px;
+    }
+    .container__header--user{
+        display: none;
+    }
+
+    .menu-toggle{
+        display: inline-flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    /*.menu{*/
+    /*    display: none;*/
+    /*    width: 30px;*/
+    /*    height: 20px;*/
+    /*}*/
+    .menu li button{
+        display: inline-flex;
+    }
+    .container__content{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .container__content .container__content--pic{
+        /*height: 380px;*/
+        width: 100%;
+    }
+    .container__content--pic{
+        width: 360px;
+        height: 300px;
+    }
+    .container__content .container__content--pic img{
+        width: 360px;
+        height: 300px;
+        object-fit: cover;
+    }
+    .container__content--main{
+        width: 360px;
+    }
+    .container__content .container__content--main1{
+        font-size: 35px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .container__content .container__content--main2{
+        font-size: 16px;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .container__content .container__content--main .container__content--button{
+        margin-top: 15px;
+        width: 145px;
+        height: 40px;
+        font-size: 16px;
+    }
+    .container__plan--select {
+        display: grid;
+        justify-content: flex-start;
+        grid-auto-columns: 310px;
+        grid-auto-flow: column;
+        grid-gap: 0 30px;
+        overflow: auto;
+        overflow-y: hidden;
+        scroll-snap-type: x mandatory;
+        scroll-snap-stop: always;
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
+        -webkit-overflow-scrolling: touch;
+        scroll-padding: 1rem;
+        grid-template-columns: unset;
+        margin-bottom: 50px;
+    }
+    .container__plan--select::-webkit-scrollbar {
+        display: none;
+        width: 0;
+    }
+    .container__plan--select > * {
+        scroll-snap-align: start;
+    }
+    .container__map--title h2{
+        color: #0B132A;
+        text-align: center;
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 50px; /* 142.857% */
+        width: 90%;
+        /*margin-left: 80px;*/
+    }
+    .container__map--title p{
+        color: #4F5665;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px; /* 187.5% */
+        width: 90%;
+    }
+    .container__bar{
+        height: 430px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap:0;
+
+    }
+    .container__bar .container__bar--content{
+        padding: 0;
+        margin: 0;
+        border: none;
+        flex-direction: column;
+        gap:8px;
+    }
+    .container__bar .container__bar--content p{
+        text-align: center;
+    }
+    .container__content1--img{
+        width: 100%;
+        margin: 0 0 30px 0;
+        height: 300px;
+    }
+    .container__content1--img img{
+        object-fit: cover;
+        width: 100%;
+    }
+    .container__plan--title{
+        margin: 30px 0 0 0;
+    }
+    .container__map--title{
+        margin: 30px 0 30px 0;
+    }
+    .container__map-band{
+        gap:0;
+        margin-top: 50px;
+    }
+    .container__map-band img:first-child{
+        width: 20%;
+        height: 30px;
+        flex-shrink: 0;
+        /*không thay đổi kích thước phần tử con khi phần tử cha thay đổi kích thước*/
+    }
+    .container__map-band img:nth-child(2){
+        width: 20%;
+        height: 30px;
+        flex-shrink: 0;
+    }
+    .container__map-band img:nth-child(3){
+        width: 20%;
+        /*height: 60px;*/
+        flex-shrink: 0;
+    }
+    .container__map-band img:nth-child(4){
+        width: 20%;
+        height: 30px;
+        flex-shrink: 0;
+    }
+    .container__map-band img:nth-child(5){
+        width: 20%;
+        height: 30px;
+        flex-shrink: 0;
+    }
+    .footer__subcribe{
+        margin: 100px 0 0 0;
+        padding:0;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .footer__subcribe--content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer__subcribe h2{
+        margin: 20px 0 10px 0;
+        width: 90%;
+        font-size: 25px;
+        text-align: center;
+    }
+    .footer__subcribe p{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .footer__subcribe--button{
+        display: flex;
+        justify-content: center;
+
+    }
+    .footer__subcribe--button button{
+        margin-bottom: 10px;
+        width: 70%;
+        height: 50px;
+    }
+    .footer__info{
+        flex-direction: column;
+        gap:40px
+    }
+    .customer-top{
+        margin-bottom: 10px ;
+    }
+}
+

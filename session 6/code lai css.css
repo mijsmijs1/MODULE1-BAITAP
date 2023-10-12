@@ -1,0 +1,289 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url("beach3.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 50%;
+    position: relative;
+}
+
+header > div {
+    background-color: yellow;
+    opacity: 0.5;
+    left: 0px;
+    bottom: 50px;
+    font-size: 20px;
+    position: absolute;
+    width: 600px;
+    padding: 20px 0 20px 0;
+}
+
+.head > h1 {
+    padding: 0 0 0 20px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    colum-gap: 20px;
+    row-gap: 50px;
+    margin: 30px 50px;
+    justify-content: space-between;
+}
+
+main > div {
+    flex-basis: 48%;
+    border-top: 10px solid yellow;
+}
+
+.item > img {
+    width: 100%;
+}
+
+.item > h1 {
+    font-size: 30px;
+    padding: 20px 0 20px 0;
+}
+
+.B1 > h1 {
+    margin: 0 auto;
+    text-align: auto;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.B1 > p {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.B1 > img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+/*.B2>h1{*/
+/*    margin:0 auto;*/
+/*    text-align:center;*/
+/*    color:white;*/
+/*    background-color: black;*/
+/*    padding:20px 0;*/
+/*}*/
+/*.B2>ul{*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    gap: 100px;*/
+/*    justify-content: center;*/
+/*    list-style: none;*/
+/*    background-color: gray;*/
+/*    text-decoration: none;*/
+/*}*/
+/*a{*/
+/*    text-decoration: none;*/
+/*}*/
+/*a:hover{*/
+/*    !*color: yellow;*!*/
+/*    background-color: green;*/
+/*}*/
+
+/*form{*/
+/*    margin:20px;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    max-width: 600px;*/
+/*}*/
+/*label{*/
+/*    font-size:20px;*/
+/*    margin-bottom: 10px;*/
+/*}*/
+/*input[type="text"],input[type="email"],textarea{*/
+/*    padding:10px;*/
+/*    margin-bottom: 20px;*/
+/*    border:2px solid black;*/
+/*    border-radius: 4px;*/
+/*    font-size: 16px;*/
+/*}*/
+/*input[type="submit"]{*/
+/*    padding:10px 20px;*/
+/*    font-size:16px;*/
+/*    background-color: aquamarine;*/
+/*    color: black;*/
+/*    border:2px solid black;*/
+/*    border-radius: 5px;*/
+/*}*/
+.BT4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bar {
+    width: 200px;
+    height: 100%;
+    background-color: aquamarine;
+    font-size: 16px;
+    color: black;
+    padding-top: 20px;
+    overflow-x: hidden;
+}
+
+.bar > a {
+    display: block;
+    padding: 10px;
+}
+
+.bar > a.active {
+    background-color: green;
+    color: #fff;
+}
+
+.content {
+    margin-left: 200px;
+    padding: 20px
+}
+
+.BT5 {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.BT5 > p {
+    padding-top: 10px;
+
+    text-align: left;
+    font-size: 20px;
+}
+
+.BT6 {
+    text-align: center;
+}
+
+.pic {
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    padding: 10px 100px;
+    /*margin-left: 700px;*/
+    /*margin-right: 700px;*/
+    justify-content: center;;
+}
+
+h1 > span {
+    color: blue;
+    font-weight: 750;
+}
+
+.BT6 > h1 {
+    font-weight: 500;
+}
+
+.text_2 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.link_1 {
+    margin-right: 10px;
+    padding: 15px 40px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 2px;
+}
+
+.link_2 {
+    margin-left: 10px;
+    padding: 15px 40px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 2px;
+}
+
+.BT7 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    max-width: 100%;
+    background-image: url("https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28312.jpg?q=10&h=200");
+    background-size: cover;
+    background-position: center;
+    padding-top: 50%;
+    text-align: center;
+    position: relative;
+}
+
+.BT7 > div {
+    color: white;
+    position: absolute;
+    left: 450px;
+    bottom: 250px;
+    font-size: 20px;
+    position: absolute;
+    width: 600px;
+    padding: 40px 0 40px 0;
+}
+
+.BT7_1 > p {
+    margin: 60px;
+}
+
+.BT7_1 > a {
+
+    padding: 20px;
+    background-color: red;
+    border: none;
+    border-radius: 2px;
+}
+
+.BT8 {
+    background-color: aquamarine;
+}
+
+.BT8 > h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.BT8 > div {
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 2px;
+    margin: 10px 40px 0 40px;
+}
+
+.BT8 > form {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+form>label{
+    padding: 10px;
+}
+input{
+    margin-left: 10px;
+}
+textarea{
+    margin-left: 10px;
+}
+input[type="submit"]{
+    background-color: black;
+    color: white;
+}
+
